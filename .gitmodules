@@ -1,0 +1,3 @@
+[submodule "src/submodules/react-calculator-app"]
+	path = src/submodules/react-calculator-app
+	url = https://github.com/SMelidoni/react-calculator-app
