@@ -12,7 +12,7 @@ To install and run the React App Collection, follow these steps:
 
 1. Clone the `react-app-collection` repository using the `--recursive` option to ensure that the submodules are initialized and updated automatically: 
 
-   `clone --recursive https://github.com/SMelidoni/react-app-collection.git`
+   `git clone --recursive https://github.com/SMelidoni/react-app-collection.git`
 
 If you have already cloned the repository with the `--recursive` option, you can skip to the next step.
 
