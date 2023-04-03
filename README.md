@@ -10,23 +10,39 @@ This collection currently includes a few basic applications such as a calculator
 
 To install and run the React App Collection, follow these steps:
 
-1. Clone the `react-app-collection` repository: git clone https://github.com/SMelidoni/react-app-collection.git
+1. Clone the `react-app-collection` repository using the `--recursive` option to ensure that the submodules are initialized and updated automatically: 
 
-2. Initialize and update the submodules:
+- clone --recursive https://github.com/SMelidoni/react-app-collection.git
 
-   - git submodule init
-   - git submodule update
+If you have already cloned the repository with the `--recursive` option, you can skip to the next step.
 
-3. Install the dependencies: npm install
+2. If you have not used the `--recursive` option when cloning the repository, or if you have added a new submodule to the repository, you will need to initialize and update the submodules manually:
 
-## How to run the applications
+- git submodule init
+- git submodule update
 
-To run any of the applications in this collection, simply navigate to the corresponding subdirectory and run the following commands:
+This will ensure that the submodules are properly initialized and updated to the latest version specified by the main repository.
 
+3. Navigate to the root directory of the React App Collection and install the dependencies:
+
+- cd react-app-collection
+- npm install
+
+4. Start the development server:
+
+- npm start
+
+You can then access the application by opening your web browser and navigating to http://localhost:3000.
+
+## How to run the applications (individually)
+
+To run any of the applications in this collection as a standalone app, simply navigate to the corresponding subdirectory and run the following commands:
+
+- cd <subdirectory>
 - npm install (If not done in step 3 above)
 - npm start
 
-This will install any necessary dependencies and start the application. You can then access the application by opening your web browser and navigating to http://localhost:3000.
+You can then access the application as mentioned in point 4 above.
 
 ## Contributing
 
