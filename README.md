@@ -4,7 +4,7 @@ Welcome to the React App Collection! This is an ongoing project where I add indi
 
 ## What is included in this collection?
 
-This collection currently includes a few basic applications such as a calculator, a to-do list, and a weather app. Each project is contained in its own subdirectory within the repository and is fully functional as a standalone application.
+This collection currently includes no working apps, I intend to develop a few basic applications to start with such as a calculator, a to-do list, tic-tac-toe, and a weather app. Each project is contained in its own subdirectory within the repository and is fully functional as a standalone application.
 
 ## Installation
 
