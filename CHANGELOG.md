@@ -1,4 +1,4 @@
-# WIP
+# v1.0.0 - 5th April 2023
 
 - Created initial project setup
 - Added repository 'react-calculator-app' as a submodule
