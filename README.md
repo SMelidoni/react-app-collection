@@ -31,10 +31,11 @@ If you have already cloned the repository with the `--recursive` option, you can
    
 This will ensure that the submodules are properly initialized and updated to the latest version specified by the main repository.
 
-3. Navigate to the root directory of the React App Collection and install the dependencies:
+3. Navigate to the root directory of the React App Collection and install the dependencies as well as initializing the sub modules:
 
    `cd react-app-collection`
    `npm install`
+   `git submodule update --init --recursive`
    
 Note: This project was developed using Node.js v18.10.0 and Visual Studio Code, but you can use any code editor of your choice.
 
