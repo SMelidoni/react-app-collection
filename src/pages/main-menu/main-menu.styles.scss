@@ -12,20 +12,16 @@
     margin-bottom: 2rem;
     position: relative;
     text-decoration: none;
+    text-shadow: 2px 2px 3px rgba(255, 152, 0, 0.5);
   }
 
   .main-menu-header::after {
-    background-color: #ffa07a;
-    bottom: -0.25rem;
+    background-color: rgba(255, 152, 0, 0.5);
+    bottom: -0.5rem;
     content: '';
-    filter: brightness(75%);
     height: 0.2rem;
     left: 0;
     position: absolute;
     width: 100%;
-  }
-
-  .global-button-container {
-    margin-top: 1rem;
   }
 }
