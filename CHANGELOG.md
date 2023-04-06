@@ -1,6 +1,6 @@
 # WIP
 
-- Updated main menu to have more of a retro feel
+- Updated main menu to have more of a retro style/feel
 
 # v1.0.0 - 5th April 2023
 
