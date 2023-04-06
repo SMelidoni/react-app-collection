@@ -7,22 +7,22 @@
 }
 
 .global-button {
-  box-shadow: inset 0 0 10px rgba(255, 152, 0, 0.3);
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 5px;
-  font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #ffffff;
+  animation: floating 0.8s ease-in-out infinite;
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 5px;
+  box-shadow: inset 0 0 10px rgba(255, 152, 0, 0.3);
+  color: #ffffff;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 5px;
+  padding: 10px 20px;
   position: relative;
-  animation: floating 0.8s ease-in-out infinite;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
 }
 
 @keyframes floating {
@@ -38,19 +38,18 @@
 }
 
 .global-button::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
   background: linear-gradient(
     45deg,
     transparent 0%,
     rgba(255, 152, 0, 0.3) 50%
   );
-
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
   transition: all 0.2s ease-in-out;
+  width: 0%;
   z-index: -1;
 }
 
@@ -59,13 +58,13 @@
 }
 
 .global-button:hover {
-  transform: translateY(-2px);
   box-shadow: inset 0 0 10px rgba(255, 152, 0, 0.5),
     0 2px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
 }
 
 .global-button:active {
-  transform: translateY(0);
-  box-shadow: inset 0 0 10px rgba(255, 152, 0, 0.5);
   background-color: rgba(255, 140, 0, 0.3);
+  box-shadow: inset 0 0 10px rgba(255, 152, 0, 0.5);
+  transform: translateY(0);
 }
