@@ -22,27 +22,27 @@ To install and run the React App Collection, follow these steps:
 
    `git clone --recursive https://github.com/SMelidoni/react-app-collection.git`
    
-   If you have already cloned the repository with the `--recursive` option, you can skip to the next step.
+If you have already cloned the repository with the `--recursive` option, you can skip to the next step.
 
 2. If you have not used the `--recursive` option when cloning the repository, or if you have added a new submodule to the repository, you will need to initialize and update the submodules manually:
 
    `git submodule init`
    `git submodule update`
    
-   This will ensure that the submodules are properly initialized and updated to the latest version specified by the main repository.
+This will ensure that the submodules are properly initialized and updated to the latest version specified by the main repository.
 
 3. Navigate to the root directory of the React App Collection and install the dependencies:
 
    `cd react-app-collection`
    `npm install`
    
-   Note: This project was developed using Node.js v18.10.0 and Visual Studio Code, but you can use any code editor of your choice.
+Note: This project was developed using Node.js v18.10.0 and Visual Studio Code, but you can use any code editor of your choice.
 
 4. Start the development server:
 
    `npm start`
    
-   You can then access the application by opening your web browser and navigating to http://localhost:3000.
+You can then access the application by opening your web browser and navigating to http://localhost:3000.
 
 ## How to run the applications (individually)
 
