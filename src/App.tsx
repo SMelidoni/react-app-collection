@@ -9,7 +9,10 @@ const App: FC = () => {
     <Router>
       <Routes>
         <Route path="/" element={<MainMenu />} />
-        <Route path="/calculator" element={<ReactAppCalculator />} />
+        <Route
+          path="/calculator"
+          element={<ReactAppCalculator showBackButton />}
+        />
       </Routes>
     </Router>
   );
