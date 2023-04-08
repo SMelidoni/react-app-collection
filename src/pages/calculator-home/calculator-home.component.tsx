@@ -2,8 +2,8 @@ import './calculator-home.styles.scss';
 
 import React, { FC } from 'react';
 
-import BasicCalculator from '../../components/global-button/basic-calculator/basic-calculator.component';
 import GlobalButton from '../../components/global-button/global-button.component';
+import BasicCalculator from '../../components/basic-calculator/basic-calculator.component';
 
 const CalculatorHome: FC = () => {
   return (
