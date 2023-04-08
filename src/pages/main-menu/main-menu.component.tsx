@@ -9,7 +9,7 @@ const MainMenu: FC = () => {
     <div className="global-page-container">
       <div className="main-menu-container">
         <header className="main-menu-header">Main Menu</header>
-        <GlobalButton label="Home" route="/" />
+        <p>Select your game:</p>
         <GlobalButton label="Calculator" route="/calculator" />
       </div>
     </div>
