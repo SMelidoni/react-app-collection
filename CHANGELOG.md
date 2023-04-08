@@ -1,4 +1,4 @@
-# WIP
+# v1.1.1 - 8th April 2023
 
 - Updated navigation so that the back button is shown when loading submodule (individual app)
   - The back button is hidden when the submodule is ran as a standalone application
