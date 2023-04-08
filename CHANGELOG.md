@@ -1,3 +1,10 @@
+# v1.1.1 - 8th April 2023
+
+- Updated navigation so that the back button is shown when loading submodule (individual app)
+  - The back button is hidden when the submodule is ran as a standalone application
+- Removed react-app-calculator as a submodule and integrated the calculator code into this repo instead
+  - The basic calculator is now accessible and functional from the main menu
+
 # v1.0.1 - 6th April 2023
 
 - Updated main menu to have more of a retro style/feel
