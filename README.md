@@ -5,7 +5,7 @@ Welcome to the React App Collection! This is an ongoing project where I add indi
 Each project originates from it's own repository and is integrated within this one. You can run each individual repository as a standalone application. Each of their retrospective location can be found in the list below within the `What is included` section.
 
 ## What is included in this collection?
-_Please select to see the repository for each project as a standalone application_
+_Please select to see the repository for each project as a standalone application:_
 
 - [React Calculator App](https://github.com/SMelidoni/react-calculator-app)
 
