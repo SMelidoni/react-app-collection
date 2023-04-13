@@ -12,6 +12,7 @@ _Please select to see the repository for each project as a standalone applicatio
 #### What's coming next?
 
 - Tic-Tac-Toe
+- Checkers
 - Connect 4
 - To Do List
 
