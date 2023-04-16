@@ -1,3 +1,7 @@
+# WIP
+
+- Updated Main Menu page (Added page title and updated styling)
+
 # v1.1.1 - 8th April 2023
 
 - Updated navigation so that the back button is shown when loading submodule (individual app)
