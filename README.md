@@ -20,7 +20,7 @@ _Please select to see the repository for each project as a standalone applicatio
 
 Before running the React App Collection, make sure you have the following software and tools installed on your machine:
 
-- Node.js v18.10.0 or later
+- Node.js v18.16.0 or later
 - npm (Node Package Manager) - this comes bundled with Node.js
 - Visual Studio Code (or any other code editor of your choice)
 
@@ -39,7 +39,7 @@ Note: By default, the `develop` branch will be checked out. However, if you want
    `cd react-app-collection`
    `npm install`
    
-Note: This project was developed using Node.js v18.10.0 and Visual Studio Code, but you can use any code editor of your choice.
+Note: This project was developed using Node.js v18.16.0 and Visual Studio Code, but you can use any code editor of your choice.
 
 3. Start the development server:
 
