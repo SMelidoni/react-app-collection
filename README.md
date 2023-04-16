@@ -28,9 +28,11 @@ Before running the React App Collection, make sure you have the following softwa
 
 To install and run the React App Collection, follow these steps:
 
-1. Clone the `react-app-collection` repository: 
+1. Clone the `react-app-collection` repository from the `main` branch: 
 
    `git clone https://github.com/SMelidoni/react-app-collection.git`
+   
+Note: By default, the `develop` branch will be checked out. However, if you want to use the most stable version, please check out the `main` branch by running: `git checkout main`
 
 2. Navigate to the root directory of the React App Collection and install the dependencies:
 
