@@ -25,6 +25,10 @@
   transition: all 0.2s ease-in-out;
 }
 
+a.global-button {
+  text-decoration: none;
+}
+
 @keyframes floating {
   0% {
     transform: translateY(0);
