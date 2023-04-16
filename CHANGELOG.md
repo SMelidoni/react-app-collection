@@ -3,6 +3,7 @@
 - Updated Main Menu page (Added page title and updated styling)
 - Upgraded Node version from v18.10.0 to v18.16.0
 - Updated basic calculator sub title style (font-size)
+- Added pixelated grid background style
 
 # v1.1.1 - 8th April 2023
 
