@@ -8,6 +8,7 @@
 ## Low Priority
 
 - [ ] Make page more responsive (mobile and desktop)
+- [ ] Comment code
 
 # Ideas
 
