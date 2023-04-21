@@ -8,8 +8,8 @@ const App: FC = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<MainMenu />} />
-        <Route path="/calculator" element={<CalculatorHome />} />
+        <Route path='/' element={<MainMenu />} />
+        <Route path='/calculator' element={<CalculatorHome />} />
       </Routes>
     </Router>
   );
