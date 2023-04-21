@@ -6,6 +6,7 @@
 - Added pixelated grid background style
 - Updated packages (resolved vulnerabilities)
 - Added Prettier config file
+- Added TODO.md file
 
 # v1.1.1 - 8th April 2023
 
