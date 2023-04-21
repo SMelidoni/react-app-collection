@@ -10,9 +10,9 @@ _Please select to see the repository for each project as a standalone applicatio
 
 - [React Calculator App](https://github.com/SMelidoni/react-calculator-app)
 
-#### In Progress:
+_In Progress:_
 
-- [Tic-Tac-Toe](https://github.com/SMelidoni/react-tictactoe-app)
+- [React Tic-Tac-Toe App](https://github.com/SMelidoni/react-tictactoe-app)
 
 #### What's coming next?
 
