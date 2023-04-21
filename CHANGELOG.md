@@ -5,6 +5,7 @@
 - Updated basic calculator sub title style (font-size)
 - Added pixelated grid background style
 - Updated packages (resolved vulnerabilities)
+- Added Prettier config file
 
 # v1.1.1 - 8th April 2023
 
