@@ -9,6 +9,7 @@
 
 - [ ] Make page more responsive (mobile and desktop)
 - [ ] Comment code
+- [ ] Refactor SCSS
 
 # Ideas
 
