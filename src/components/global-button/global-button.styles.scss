@@ -1,6 +1,5 @@
 .global-button-container {
   align-items: center;
-  background-color: #282c34;
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -23,6 +22,10 @@
   // position: relative;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
+}
+
+a.global-button {
+  text-decoration: none;
 }
 
 @keyframes floating {
