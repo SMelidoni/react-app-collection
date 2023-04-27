@@ -1,3 +1,8 @@
+# WIP
+
+- Added Tic-Tac-Toe to Collection Main Menu
+- Integrated Tic-Tac-Toe game into collection
+
 # v1.2.1 - 23rd April 2023
 
 - Updated Main Menu page (Added page title and updated styling)
