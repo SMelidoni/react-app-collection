@@ -2,6 +2,7 @@
 
 - Added Tic-Tac-Toe to Collection Main Menu
 - Integrated Tic-Tac-Toe game into collection
+- Fixed Tic-Tac-Toe header styling
 
 # v1.2.1 - 23rd April 2023
 
