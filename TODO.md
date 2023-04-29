@@ -7,7 +7,7 @@
 
 ## Low Priority
 
-- [ ] Add page transition effect/animation
+- [x] Add page transition effect/animation
 - [ ] Make page more responsive (mobile and desktop)
 - [ ] Comment code
 - [ ] Refactor SCSS
