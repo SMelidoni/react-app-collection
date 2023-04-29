@@ -16,7 +16,6 @@ _In Progress:_
 
 #### What's coming next?
 
-- Rock, Paper, Scissors
 - To Do List
 - Weather App
 - Checkers
