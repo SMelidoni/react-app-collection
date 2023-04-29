@@ -1,5 +1,8 @@
+import './App.scss';
+
 import React, { FC } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { AnimatePresence, motion } from 'framer-motion';
 
 import MainMenu from './pages/main-menu/main-menu.component';
 import CalculatorHome from './pages/calculator-home/calculator-home.component';
@@ -8,16 +11,30 @@ import TicTacToeSingle from './pages/tic-tac-toe/tic-tac-toe-single/tic-tac-toe-
 import TicTacToe2P from './pages/tic-tac-toe/tic-tac-toe-2p/tic-tac-toe-2p.component';
 
 const App: FC = () => {
+  const location = useLocation();
+
   return (
-    <Router>
-      <Routes>
-        <Route path='/' element={<MainMenu />} />
-        <Route path='/calculator' element={<CalculatorHome />} />
-        <Route path='/tic-tac-toe-home' element={<TicTacToeHome />} />
-        <Route path='/tic-tac-toe-single' element={<TicTacToeSingle />} />
-        <Route path='/tic-tac-toe-2p' element={<TicTacToe2P />} />
-      </Routes>
-    </Router>
+    <div className='global-page-container'>
+      <div className='pixelated-grid'></div>
+      <AnimatePresence mode='wait'>
+        <motion.div
+          key={location.key}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          style={{ position: 'absolute', width: '100%' }}
+          transition={{ duration: 0.25 }}
+        >
+          <Routes location={location} key={location.pathname}>
+            <Route path='/' element={<MainMenu />} />
+            <Route path='/calculator' element={<CalculatorHome />} />
+            <Route path='/tic-tac-toe-home' element={<TicTacToeHome />} />
+            <Route path='/tic-tac-toe-single' element={<TicTacToeSingle />} />
+            <Route path='/tic-tac-toe-2p' element={<TicTacToe2P />} />
+          </Routes>
+        </motion.div>
+      </AnimatePresence>
+    </div>
   );
 };
 
