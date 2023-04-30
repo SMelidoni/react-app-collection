@@ -13,6 +13,7 @@ const MainMenu: FC = () => {
         <h1 className='main-menu-sub-header'>Main Menu</h1>
         <p>Select your game:</p>
         <GlobalButton label='Calculator' route='/calculator' />
+        <GlobalButton label='Tic-Tac-Toe' route='/tic-tac-toe-home' />
       </div>
     </div>
   );

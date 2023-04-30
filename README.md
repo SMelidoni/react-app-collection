@@ -16,9 +16,10 @@ _In Progress:_
 
 #### What's coming next?
 
+- To Do List
+- Weather App
 - Checkers
 - Connect 4
-- To Do List
 
 ## Prerequisites
 

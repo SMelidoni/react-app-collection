@@ -1,3 +1,10 @@
+# v1.3.1 - 30th April 2023
+
+- Added Tic-Tac-Toe to Collection Main Menu
+- Integrated Tic-Tac-Toe game into collection
+- Fixed Tic-Tac-Toe header styling
+- Added page transition animation (framer motion)
+
 # v1.2.1 - 23rd April 2023
 
 - Updated Main Menu page (Added page title and updated styling)
