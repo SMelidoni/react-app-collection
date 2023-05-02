@@ -4,6 +4,7 @@
 
 - [x] Update Main Menu to feature Tic-Tac-Toe
 - [x] Integrate [Tic-Tac-Toe](https://github.com/SMelidoni/react-tictactoe-app) application (when ready)
+- [ ] Add retro animated mouse styling
 
 ## Low Priority
 
