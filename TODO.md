@@ -7,6 +7,7 @@
 - [ ] Add retro animated mouse styling
 - [ ] Integrate React ToDo Application
 - [ ] Add disabled animation/opacity to Tic-Tac-Toe menu button 'Single Player'
+- [ ] Fix '404' page infinite re-render
 
 ## Low Priority
 
