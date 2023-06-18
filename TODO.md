@@ -6,6 +6,7 @@
 - [x] Integrate [Tic-Tac-Toe](https://github.com/SMelidoni/react-tictactoe-app) application (when ready)
 - [ ] Add retro animated mouse styling
 - [ ] Integrate React ToDo Application
+- [ ] Add disabled animation/opacity to Tic-Tac-Toe menu button 'Single Player'
 
 ## Low Priority
 
