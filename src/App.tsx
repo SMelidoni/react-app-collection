@@ -9,6 +9,7 @@ import CalculatorHome from './pages/calculator-home/calculator-home.component';
 import TicTacToeHome from './pages/tic-tac-toe/tic-tac-toe-home/tic-tac-toe-home.component';
 import TicTacToeSingle from './pages/tic-tac-toe/tic-tac-toe-single/tic-tac-toe-single.component';
 import TicTacToe2P from './pages/tic-tac-toe/tic-tac-toe-2p/tic-tac-toe-2p.component';
+import ToDoHome from './pages/todo-home/todo-home.component';
 import PageNotFound from './pages/not-found/not-found.component';
 
 const App: FC = () => {
@@ -32,6 +33,7 @@ const App: FC = () => {
             <Route path='/tic-tac-toe-home' element={<TicTacToeHome />} />
             <Route path='/tic-tac-toe-single' element={<TicTacToeSingle />} />
             <Route path='/tic-tac-toe-2p' element={<TicTacToe2P />} />
+            <Route path='/todo-home' element={<ToDoHome />} />
             <Route path='/404' element={<PageNotFound />} />
             <Route path='*' element={<Navigate to='/404' />} />
           </Routes>

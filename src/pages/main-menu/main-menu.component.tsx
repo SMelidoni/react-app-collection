@@ -14,6 +14,7 @@ const MainMenu: FC = () => {
         <p>Select your game:</p>
         <GlobalButton label='Calculator' route='/calculator' />
         <GlobalButton label='Tic-Tac-Toe' route='/tic-tac-toe-home' />
+        <GlobalButton label='To Do' route='/todo-home' />
       </div>
     </div>
   );
