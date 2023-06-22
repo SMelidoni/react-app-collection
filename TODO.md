@@ -14,7 +14,8 @@
 - [x] Add page transition effect/animation
 - [ ] Make page more responsive (mobile and desktop)
 - [ ] Comment code
-- [ ] Refactor SCSS
+- [x] Refactor SCSS
+- [ ] Add key input press control (Calculator)
 
 # Ideas
 
