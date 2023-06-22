@@ -1,75 +1,71 @@
-.global-page-container {
-  .tic-tac-toe-2p-container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: calc(100vh - 2rem);
-    padding-top: 2rem;
+.tic-tac-toe-2p-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: calc(100vh - 2rem);
+  padding-top: 2rem;
 
-    .tic-tac-toe-2p-back-button {
-      left: 1rem;
-      position: absolute;
-      top: 1rem;
-      z-index: 1;
-    }
+  .tic-tac-toe-2p-back-button {
+    left: 1rem;
+    position: absolute;
+    top: 1rem;
+    z-index: 1;
+  }
 
-    .tic-tac-toe-2p-header {
-      text-align: center;
+  .tic-tac-toe-2p-header {
+    text-align: center;
 
-      .header-text {
-        color: white;
-        font-size: calc(20px + 2vmin);
-        margin-bottom: 2rem;
-        position: relative;
-        text-decoration: none;
-        text-shadow: 2px 2px 3px rgba(255, 152, 0, 0.7);
+    .header-text {
+      color: white;
+      font-size: calc(20px + 2vmin);
+      margin-bottom: 2rem;
+      position: relative;
+      text-decoration: none;
+      text-shadow: 2px 2px 3px rgba(255, 152, 0, 0.7);
 
-        &::after {
-          background-color: rgba(255, 152, 0, 0.5);
-          bottom: -0.5rem;
-          content: '';
-          height: 0.2rem;
-          left: 0;
-          position: absolute;
-          width: 100%;
-        }
+      &::after {
+        background-color: rgba(255, 152, 0, 0.5);
+        bottom: -0.5rem;
+        content: '';
+        height: 0.2rem;
+        left: 0;
+        position: absolute;
+        width: 100%;
       }
     }
-    @keyframes fadeInOut {
-      0%,
-      100% {
-        opacity: 0;
-      }
-      50% {
-        opacity: 1;
-      }
+  }
+  @keyframes fadeInOut {
+    0%,
+    100% {
+      opacity: 0;
     }
+    50% {
+      opacity: 1;
+    }
+  }
 
-    .popup-dot {
-      display: inline-block;
-      animation: fadeInOut 1.5s infinite;
-    }
+  .popup-dot {
+    animation: fadeInOut 1.5s infinite;
+    display: inline-block;
+  }
 
-    .popup-dot:nth-child(2) {
-      animation-delay: 0.3s;
-    }
+  .popup-dot:nth-child(2) {
+    animation-delay: 0.3s;
+  }
 
-    .popup-dot:nth-child(3) {
-      animation-delay: 0.6s;
-    }
+  .popup-dot:nth-child(3) {
+    animation-delay: 0.6s;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .global-page-container {
-    .tic-tac-toe-2p-container {
-      height: calc(100vh - 6rem);
-      padding-top: 6rem;
+  .tic-tac-toe-2p-container {
+    height: calc(100vh - 6rem);
+    padding-top: 6rem;
 
-      .tic-tac-toe-2p-header {
-        font-size: calc(20px + 1vmin);
-      }
+    .tic-tac-toe-2p-header {
+      font-size: calc(20px + 1vmin);
     }
   }
 }

@@ -7,19 +7,16 @@ import BasicCalculator from '../../components/basic-calculator/basic-calculator.
 
 const CalculatorHome: FC = () => {
   return (
-    <div className='global-page-container'>
-      <div className='pixelated-grid'></div>
-      <div className='calculator-home-container'>
-        <div className='calculator-home-back-button'>
-          <GlobalButton label='<- Back' route='/' />
-        </div>
-        <header className='calculator-home-header'>
-          <h1 className='header-text header-text-react'>React</h1>
-          <h1 className='header-text header-text-calculator'>Calculator</h1>
-        </header>
-        <div className='calculator-home-content'>
-          <BasicCalculator />
-        </div>
+    <div className='calculator-home-container'>
+      <div className='calculator-home-back-button'>
+        <GlobalButton label='<- Back' route='/' />
+      </div>
+      <header className='calculator-home-header'>
+        <h1 className='header-text header-text-react'>React</h1>
+        <h1 className='header-text header-text-calculator'>Calculator</h1>
+      </header>
+      <div className='calculator-home-content'>
+        <BasicCalculator />
       </div>
     </div>
   );

@@ -34,30 +34,27 @@ const TicTacToe2P: FC = () => {
   }, [popupMessage]);
 
   return (
-    <div className='global-page-container'>
-      <div className='pixelated-grid'></div>
-      <div className='tic-tac-toe-2p-container'>
-        {popupMessage && (
-          <div className='popup'>
-            {popupMessage}
-            <span className='popup-dot'>.</span>
-            <span className='popup-dot'>.</span>
-            <span className='popup-dot'>.</span>
-          </div>
-        )}
-        <div className='tic-tac-toe-2p-back-button'>
-          <GlobalButton label='<- Back' route='/tic-tac-toe-home' />
+    <div className='tic-tac-toe-2p-container'>
+      {popupMessage && (
+        <div className='popup'>
+          {popupMessage}
+          <span className='popup-dot'>.</span>
+          <span className='popup-dot'>.</span>
+          <span className='popup-dot'>.</span>
         </div>
-        <header className='tic-tac-toe-2p-header'>
-          <h1 className='header-text'>2 Player</h1>
-        </header>
-        <div>
-          <TicTacToeScore xScore={xScore} oScore={oScore} />
-        </div>
-        <div className='tic-tac-toe-2p-content'>
-          <TicTacToeMain updateScores={updateScores} />
-          <GlobalButton label='Reset Game' onClick={resetGame} />
-        </div>
+      )}
+      <div className='tic-tac-toe-2p-back-button'>
+        <GlobalButton label='<- Back' route='/tic-tac-toe-home' />
+      </div>
+      <header className='tic-tac-toe-2p-header'>
+        <h1 className='header-text'>2 Player</h1>
+      </header>
+      <div>
+        <TicTacToeScore xScore={xScore} oScore={oScore} />
+      </div>
+      <div className='tic-tac-toe-2p-content'>
+        <TicTacToeMain updateScores={updateScores} />
+        <GlobalButton label='Reset Game' onClick={resetGame} />
       </div>
     </div>
   );
