@@ -12,7 +12,7 @@
 ## Low Priority
 
 - [x] Add page transition effect/animation
-- [ ] Make page more responsive (mobile and desktop)
+- [x] Make page more responsive (mobile and desktop)
 - [ ] Comment code
 - [x] Refactor SCSS
 - [ ] Add key input press control (Calculator)
