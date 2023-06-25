@@ -5,8 +5,8 @@
 - [x] Update Main Menu to feature Tic-Tac-Toe
 - [x] Integrate [Tic-Tac-Toe](https://github.com/SMelidoni/react-tictactoe-app) application (when ready)
 - [ ] Add retro animated mouse styling
-- [ ] Integrate React ToDo Application
-- [ ] Add disabled animation/opacity to Tic-Tac-Toe menu button 'Single Player'
+- [x] Integrate React ToDo Application
+- [x] Added link to 'Two PLayer' mode in 'Single Player' page (tictactoe)
 - [ ] Fix '404' page infinite re-render
 
 ## Low Priority

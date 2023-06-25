@@ -15,6 +15,13 @@ const TicTacToeSingle: FC = () => {
       </header>
       <div className='tic-tac-toe-single-content'>
         <p>Coming Soon...</p>
+        <div>
+          <p>
+            <span className='arrow-icon'>&#x2193;</span> Click Here for 2P{' '}
+            <span className='arrow-icon'>&#x2193;</span>
+          </p>
+          <GlobalButton label='Two Player' route='/tic-tac-toe-2p' />
+        </div>
       </div>
     </div>
   );
