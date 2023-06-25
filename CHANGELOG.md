@@ -5,6 +5,7 @@
 - Added 'To Do' to Main Menu
 - Integrated To Do app into collection
 - Added 'Reset Game' functionality - TicTacToe
+- Updated single player mode info (tictactoe)
 
 # v1.3.1 - 30th April 2023
 
