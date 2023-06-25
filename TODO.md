@@ -7,12 +7,12 @@
 - [ ] Add retro animated mouse styling
 - [x] Integrate React ToDo Application
 - [x] Added link to 'Two PLayer' mode in 'Single Player' page (tictactoe)
-- [ ] Fix '404' page infinite re-render
+- [x] Fix '404' page infinite re-render
 
 ## Low Priority
 
 - [x] Add page transition effect/animation
-- [ ] Make page more responsive (mobile and desktop)
+- [x] Make page more responsive (mobile and desktop)
 - [ ] Comment code
 - [x] Refactor SCSS
 - [ ] Add key input press control (Calculator)

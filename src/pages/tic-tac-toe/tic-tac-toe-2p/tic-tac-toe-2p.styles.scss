@@ -5,6 +5,7 @@
   justify-content: flex-start;
   height: calc(100vh - 2rem);
   padding-top: 2rem;
+  overflow: auto;
 
   .tic-tac-toe-2p-back-button {
     left: 1rem;
