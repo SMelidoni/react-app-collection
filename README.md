@@ -9,14 +9,14 @@ Each project originates from it's own repository and is integrated within this o
 _Please select to see the repository for each project as a standalone application:_
 
 - [React Calculator App](https://github.com/SMelidoni/react-calculator-app)
+- [React Tic-Tac-Toe App](https://github.com/SMelidoni/react-tictactoe-app)
 
 _In Progress:_
 
-- [React Tic-Tac-Toe App](https://github.com/SMelidoni/react-tictactoe-app)
+- [React To Do App](https://github.com/SMelidoni/react-to-do-app)
 
 #### What's coming next?
 
-- To Do List
 - Weather App
 - Checkers
 - Connect 4

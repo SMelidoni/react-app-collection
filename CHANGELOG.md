@@ -1,3 +1,12 @@
+# v1.4.1 - 26th June 2023
+
+- Added 404 Page Not Found
+- Centered 'Back' button arrow
+- Added 'To Do' to Main Menu
+- Integrated To Do app into collection
+- Added 'Reset Game' functionality - TicTacToe
+- Updated single player mode info (tictactoe)
+
 # v1.3.1 - 30th April 2023
 
 - Added Tic-Tac-Toe to Collection Main Menu
