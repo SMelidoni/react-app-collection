@@ -10,10 +10,10 @@ _Please select to see the repository for each project as a standalone applicatio
 
 - [React Calculator App](https://github.com/SMelidoni/react-calculator-app)
 - [React Tic-Tac-Toe App](https://github.com/SMelidoni/react-tictactoe-app)
+- [React To Do App](https://github.com/SMelidoni/react-to-do-app)
 
 _In Progress:_
-
-- [React To Do App](https://github.com/SMelidoni/react-to-do-app)
+- Tic-Tac-Toe (Single Player)
 
 #### What's coming next?
 
