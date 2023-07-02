@@ -1,4 +1,4 @@
-# WIP
+# Unreleased
 
 - Updated Favicon (Joystick)
 
