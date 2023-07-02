@@ -21,6 +21,9 @@ _In Progress:_
 - Checkers
 - Connect 4
 
+## Live Production
+Check out the live version of the React App Collection to explore the applications in action: https://react-app-collection.vercel.app/ 
+
 ## Prerequisites
 
 Before running the React App Collection, make sure you have the following software and tools installed on your machine:
