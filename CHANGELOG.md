@@ -1,3 +1,7 @@
+# Unreleased
+
+- Updated Favicon (Joystick)
+
 # v1.4.1 - 26th June 2023
 
 - Added 404 Page Not Found
