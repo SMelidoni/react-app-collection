@@ -47,7 +47,7 @@ Note: By default, the `develop` branch will be checked out. However, if you want
 2. Navigate into the project directory:
 
 ```sh
-cd coinpulse-crypto-app
+cd react-app-collection
 ```
 
 3. Install the dependencies:
