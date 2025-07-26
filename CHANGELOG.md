@@ -1,5 +1,9 @@
 # Unreleased
 
+-
+
+# v1.5.0 - 26th July 2025
+
 - Updated Favicon (Joystick)
 - Updated To Do font and checkbox styles
 
