@@ -1,6 +1,7 @@
 # Unreleased
 
 - Updated Favicon (Joystick)
+- Updated To Do font and checkbox styles
 
 # v1.4.1 - 26th June 2023
 
